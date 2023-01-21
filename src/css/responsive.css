@@ -1,0 +1,39 @@
+@media screen and (min-width: 650px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+  .app-bar .app-bar__nav {
+    position: static;
+    width: 100%;
+    margin: 3px;
+  }
+  .app-bar .app-bar__nav ul li {
+    display: inline-block;
+  }
+  
+  .app-bar .app-bar__nav ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .triangle-innovative {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: var(--one-color);
+  }
+  .triangle-loyalty {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: var(--two-color);
+  }
+}
