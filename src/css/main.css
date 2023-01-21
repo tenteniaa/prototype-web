@@ -179,7 +179,7 @@ li:hover ul#submenu {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: var(--element-second);
+  background: var(--secondary-color);
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 .lds-ellipsis div:nth-child(1) {
@@ -230,7 +230,7 @@ li:hover ul#submenu {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--primary-color);
   text-align: center;
 }
 
